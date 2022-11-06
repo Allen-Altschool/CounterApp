@@ -1,2 +1,2 @@
-# CounterApp
+# count
 Created with CodeSandbox

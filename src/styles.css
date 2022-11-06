@@ -1,0 +1,117 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/**home style**/
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(42, 95, 165);
+}
+
+.main {
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.925);
+}
+
+.nav-list a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+/**counter style**/
+.counter-container {
+  display: block;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 10px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.increment {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 9px;
+  padding: 15px;
+  margin: 3px;
+  background-color: blue;
+  color: white;
+  width: 10rem;
+}
+
+.decrement {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 9px;
+  padding: 15px;
+  margin: 3px;
+  background-color: blue;
+  color: white;
+  width: 10rem;
+}
+
+.reset {
+  background-color: rgba(255, 0, 0, 0.733);
+  padding: 15px;
+  border-radius: 9px;
+}
+
+.inc {
+  display: block;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 3px;
+  background-color:orange;
+  color: white;
+}
+
+.dec {
+  display: block;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 3px;
+  background-color:rgb(33, 99, 105);
+  color: white;
+}
+
+.back {
+  margin-top: 25rem;
+  padding: 10px;
+}
+
+
